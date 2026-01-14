@@ -1,9 +1,10 @@
 const messages = [
-    "Really sure?",
-    "Think again 😏",
-    "Are you sure??",
-    "Last chance 💔",
-    "You have no choice 😈"
+    "Serio chcesz to kliknąć?",
+    "Zastanów sie hihi 😏",
+    "Jesteś tego pewna??",
+    "Ostatnia szansa 💔",
+    "Jesteś pewna na 100%?",
+    "Nie masz juz wyboru muahah 😈"
 ];
 
 let messageIndex = 0;
@@ -39,5 +40,6 @@ function createHeart() {
 
     setTimeout(() => heart.remove(), 4000);
 }
+
 
 setInterval(createHeart, 500);
